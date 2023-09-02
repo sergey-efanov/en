@@ -2889,14 +2889,16 @@ body {
   }
 
   .purpose__hints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: -195px;
     top: -54px;
     width: 208px;
     height: 208px;
     z-index: 2;
-    padding-top: 60px;
-    padding-right: 0;
-    padding-left: 23px;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 20px;
     transform: rotate(-9.97deg);
   }
@@ -2934,6 +2936,8 @@ body {
   }
 
   .values__hints {
+    display: flex;
+    align-items: center;
     right: -200px;
     top: 14px;
     width: 208px;
@@ -3234,11 +3238,14 @@ body {
   }
 
   .limits__hints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: -190px;
     top: 54px;
-    padding-top: 60px;
-    padding-right: 0;
-    padding-left: 23px;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 20px;
   }
 
@@ -4538,6 +4545,10 @@ body {
     width: 70vw;
     background: rgba(255, 255, 255, 0.5803921569);
     box-shadow: 15px -5px 30px #ffffff;
+  }
+
+  .text-none {
+    display: none;
   }
 }
 
